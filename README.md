@@ -1,2 +1,2 @@
-# Cybersecurity
+# cybersecurity
 codepath_homework
