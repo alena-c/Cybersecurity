@@ -7,7 +7,7 @@ Time spent: **10** hours spent in total
 ## Pentesting Report
 
 ### 1. (Required) WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
-  - [ ] Summary: 
+  - [x] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 
     - Fixed in version: 
