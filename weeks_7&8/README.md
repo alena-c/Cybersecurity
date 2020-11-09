@@ -7,7 +7,7 @@ Time spent: **10** hours spent in total
 ## Pentesting Report
 
 ### 1. (Required) WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
-  - [x] Summary: 
+  - [ ] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 
     - Fixed in version: 
@@ -15,11 +15,13 @@ Time spent: **10** hours spent in total
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    
 ### 2. (Required) WordPress <= 4.2.3 - Legacy Theme Preview Cross-Site Scripting (XSS)
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+  - [x] Summary: Persistent XSS of Dangerous Security Risk (dread score: 6/10). Could be used to insert a new tag mal script in a post comment. 
+  
+    - Vulnerability types: Persistent XSS 
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.4
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
 <a href='/wp-admin/' title="onclick='" Title='" style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;" onmouseover=alert(1)//'>Test</a>
