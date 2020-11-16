@@ -37,7 +37,7 @@ Description:
 
 <img src="green-vuln1.gif">
 
-Vulnerability #2: ___________User Enumeration_______
+Vulnerability #2: ___User Enumeration___
 
 Description: If the log-in was not successful, regardless of the reason, the users is supposed to be notified about it with a bolded message/marker: "Log in was unsuccessful". That's the default behavior on both red and blue targets. The green target, although, has a vulnerability whicht makes the the user distinguish the login faliure due to the wrong username vs the wrong password. This vulnerabilty is due to the typo in its html code: under the <span> tag, the class attribute has a value "failed" instead of the correct "faliure". This makes the text prompt appear in bold if the username is correct (wrong password) and not in bold when the username is wrong. The gif shows how this issue can be fixed by inspecting the element.
 
