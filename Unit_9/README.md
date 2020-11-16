@@ -32,9 +32,13 @@ In the second case, the script makes the blue target not-responsive for 10 secon
 
 <img src="blue-vuln1.gif">
 
-Vulnerability #2: __________________
+Vulnerability #2: ___Session Hijacking/Fixation___
 
-Description: 
+Description: To recreate this exploit, I used to browsers: Firefox and Tor Browser. First, I made sure I'm logged out from both of the pages. After what I logged into the Firefox and found the PHPSESSID by pasting the following sript into the url:
+
+    /hacktools/change_session_id.php
+    
+I copied the cookie, opened another blue target in the Tor Broweser, and clicked on ___Login___ tab from the ___Public Site___ page. Then, by using the same script from above, I was able to log into the pperson's account without "knowing" neither the username nor the password. 
 
 <img src="blue-vuln2.gif">
 
