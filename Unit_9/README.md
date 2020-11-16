@@ -17,9 +17,18 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability #1: _______SQL Injection___________
 
-Description: 
+Description: There are several ways to show an SQLi vulnerability of the blue target. One of them is to click on the ___Find a Salesperson___ tab --> click on any salesperson --> then replace the id's value in the url for 
+
+    'union select database(); --'    
+or
+    
+    'or sleep(10)=0; --'
+    
+Where in the first case the attacker will get the message "Database query failed.", thus confirming that the site is sqli-vulnerable. The same actions upon the red and green targets do not result in any message at all. 
+
+In the second case, the script makes the blue target not-responsive for 10 seconds (while showing the same database query faild message). Again, the red and green targets do not react to this injection.
 
 <img src="blue-vuln1.gif">
 
