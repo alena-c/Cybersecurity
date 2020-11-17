@@ -44,9 +44,13 @@ I copied the cookie, opened another blue target in the Tor Broweser, and clicked
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #1: ___Stored Cross-Site Scripting (XSS)___
 
-Description: 
+Description:  The ___Contact___ form of the green target is the perfect spot for the stored/persistent xss. Any user can post a feedback, and, if overlooked, this exploit can cause a lot of damage. I used the following script to recreate the exploit:
+
+    <p>Thank you for your sevice!</p><iframe src="javascript:alert('AC found XSS!')" height="0" width="0"></iframe>
+    
+I posted it into the ___Fedback___ field from the public site (before logging in). After the form is submitted, every registered user will get exposed to this vulnerability, since the script doesn't envolve user interaction. 
 
 <img src="green-vuln1.gif">
 
