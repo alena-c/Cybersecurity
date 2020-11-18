@@ -36,7 +36,7 @@ Vulnerability #2: ___Session Hijacking/Fixation___
 
 Description: To recreate this exploit, I used to browsers: Firefox and Tor Browser. First, I made sure I'm logged out from both of the pages. After what I logged into the Firefox and found the PHPSESSID by pasting the following sript into the url:
 
-    /hacktools/change_session_id.php
+    https://35.184.88.145/blue/public/hacktools/change_session_id.php
     
 I copied the cookie, opened another blue target in the Tor Broweser, and clicked on ___Login___ tab from the ___Public Site___ page. Then, by using the same script from above, I was able to log into the pperson's account without "knowing" neither the username nor the password. 
 
@@ -63,9 +63,9 @@ Description: If the log-in was not successful, regardless of the reason, the use
 
 ## Red
 
-Vulnerability #1: ___Insecure Direct Object Reference___
+Vulnerability #1: ___Insecure Direct Object Reference (IDOR)___
 
-Description: 
+Description: The red target had an IDOR vulnerablity, which could be recreated by going to the __Find a Salespersons__ tab of the public profile, then clicking on any of the salesperson's names, and changing the id # in the url for 10 or 11. That action reveals 2 people's data that is not supposed to be public. In the end of my gif, it's clear that the blue target (as well as green) doen's have this vulnerabilty.
 
 <img src="red-vuln1.gif">
 
