@@ -24,11 +24,30 @@
 
 ### Deploying Additional Honeypot(s) (Optional)
 
-#### X Honeypot
+#### Shockpot Honeypot
 
 **Summary:** What does this honeypot simulate and do for a security researcher?
 
-<img src="x-honeypot.gif">
+<img src="shockpot-honeypot.gif">
+
+#### Snort Honeypot
+
+**Summary:** What does this honeypot simulate and do for a security researcher?
+
+<img src="snort-honeypot.gif">
+
+#### p0f Honeypot
+
+**Summary:** What does this honeypot simulate and do for a security researcher?
+
+<img src="p0f-honeypot.gif">
+
+#### Cowrie Honeypot
+
+**Summary:** What does this honeypot simulate and do for a security researcher?
+
+<img src="cowrie-honeypot.gif">
+
 
 ### Malware Capture and Identification (Optional)
 
