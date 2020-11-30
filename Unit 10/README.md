@@ -47,6 +47,7 @@ MHN-Admin
 #### Snort Honeypot
 
 **Summary:** What does this honeypot simulate and do for a security researcher?
+Snort sensor is open source IPS (intrusion prevention system). It can analyse network traffic in real-time. It also logs the packets.
 
 <img src="snort-honeypot.gif">
 
