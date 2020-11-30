@@ -71,15 +71,33 @@ __Payloads Report__.
 
 The following are the first 3 lines of the ClamAV log of infected files (report_clamav_dionaea.txt):
 
-    /opt/dionaea/var/lib/dionaea/binaries/95ae8e32eb8635e7eabe14ffbfaa777b: Win.Ransomware.WannaCry-6313787-$
-    /opt/dionaea/var/lib/dionaea/binaries/6567e663303386b7152d5fcab1f06cac: Win.Ransomware.WannaCry-6313787-$
-    /opt/dionaea/var/lib/dionaea/binaries/fc1e617b1ff659f1826868baedc9c258: Win.Ransomware.WannaCry-6313787-$
+    1) /opt/dionaea/var/lib/dionaea/binaries/95ae8e32eb8635e7eabe14ffbfaa777b: Win.Ransomware.WannaCry-6313787-$
+    2) /opt/dionaea/var/lib/dionaea/binaries/6567e663303386b7152d5fcab1f06cac: Win.Ransomware.WannaCry-6313787-$
+    3) /opt/dionaea/var/lib/dionaea/binaries/fc1e617b1ff659f1826868baedc9c258: Win.Ransomware.WannaCry-6313787-$
 
-All three are related to the famous WannaCry ransomeware.
+Although having different hashes, all three seem to be the same malware related to the famous WannaCry ransomeware.
 
+#### Malware  CVE-2017-0147 (Ransom:Win32/CVE-2017-0147.)
 
+This is a PE32 executable for MS Windows (DLL) (GUI) Intel 80386 32-bit.
+Target Machine: Intel 386 or later processors and compatible processors 
 
-#### CVE-2017-0147 Malware
+**Summary:** How did you find it? Which honeypot captured it? What does each malware do?
+
+It was captured by Dionaea. This malware is a trojan that was used in WannaCry Ransomware. It's a SMBv1 server that allows remote attackers to obtain sensitive information from process memory via crafted packets, aka "Windows SMB Information Disclosure Vulnerability." 
+
+This malware 
+MD5 Hash:   95ae8e32eb8635e7eabe14ffbfaa777b
+SHA1 Hash:  d5872c3f694a9e23c0583c4ae3e5c59eab26c021 
+
+MD5 Hash:  6567e663303386b7152d5fcab1f06cac
+SHA1 Hash: fc2ce59f87aa3688e20880d68b6bbb5cbffa2080
+
+MD5 Hash:  fc1e617b1ff659f1826868baedc9c258
+SHA1 Hash: d7dea5b421b2c0cced2a4f6b9c5d726889a94921 
+
+______________________________________________________________________________________________
+#### Malware 
 
 Caught by the 
 
@@ -87,8 +105,9 @@ Caught by the
 
 It was captured by Dionaea. This malware is a trojan that was used in WannaCry Ransomware. It's a SMBv1 server that allows remote attackers to obtain sensitive information from process memory via crafted packets, aka "Windows SMB Information Disclosure Vulnerability." 
 
-MD5 Hash: 6567e663303386b7152d5fcab1f06cac
-SHA1 Hash: fc2ce59f87aa3688e20880d68b6bbb5cbffa2080
+MD5 Hash:  fc1e617b1ff659f1826868baedc9c258
+SHA1 Hash: d7dea5b421b2c0cced2a4f6b9c5d726889a94921 
+
 
 <img src="x-malware.gif">
 
