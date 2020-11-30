@@ -74,14 +74,15 @@ __Payloads Report__.
 Caught by the 
 
 **Summary:** How did you find it? Which honeypot captured it? What does each malware do?
-It was captured by Dionaea. This malware is the SMBv1 server that allows remote attackers to obtain sensitive information from process memory via crafted packets, aka "Windows SMB Information Disclosure Vulnerability." 
+
+It was captured by Dionaea. This malware is a trojan that was used in WannaCry Ransomware. It's a SMBv1 server that allows remote attackers to obtain sensitive information from process memory via crafted packets, aka "Windows SMB Information Disclosure Vulnerability." 
 
 MD5 Hash: 6567e663303386b7152d5fcab1f06cac
-
-SHA1 Hash: *Run `sha1sum` on the file and record the hash here.*
+SHA1 Hash: fc2ce59f87aa3688e20880d68b6bbb5cbffa2080
 
 <img src="x-malware.gif">
 
 ## Notes
-
 Describe any challenges encountered while doing the assignment.
+I also included the log of infected files (report_clamav_dionaea.txt), that was discovered with ClamAV
+
