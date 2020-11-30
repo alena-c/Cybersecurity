@@ -31,7 +31,7 @@ Dionaea is used to collect and store information about all different kinds of ma
     
 Although, MongoDB is a NoSQL database. Hence, I could suppose that Google Cloud SQL is used based on MySQL database. Scanning with Nmap of several honeypot VM's revealed open ports used by mysql database. But regarding the mhn-admin I can't tell for sure.
   
-The __session.json__ file, however, is a typical output dumb of the mongodb. It shows the ID of the attack, attack PROTOCOL, the PORT used for that attack, TIMESTAMP, DATE, SOURCE_IP address and SOURCE_PORT (an IP and port of an attacker), DESTINATION_PORT, IDENTIFIER hash, and the sensor HONEYPOT name.
+The __session.json__ file, however, is a typical output dumb of the mongodb. It shows the the information about the attack and the attacker such as (in case of dionaea) ID of the attack, attack PROTOCOL, the PORT used for that attack, TIMESTAMP, DATE, SOURCE_IP address and SOURCE_PORT (an IP and port of an attacker), DESTINATION_PORT, IDENTIFIER hash, and the sensor HONEYPOT name.
     
 MHN-Admin
 *Be sure to upload session.json directly to this GitHub repo/branch in order to get full credit.*
