@@ -109,8 +109,7 @@ It was captured by Dionaea. ClamScan did not capture this one. I found it in the
 MD5:   b3812008522d080fcbdec1adc499df2b
 SHA-1: 3e2781587ffeb521a6fc40a9c1bcd67d3d670926 
 
-
-<img src="x-malware.gif">
+<img src="troj-downloader-malware.gif">
 
 ## Notes
 Describe any challenges encountered while doing the assignment.
