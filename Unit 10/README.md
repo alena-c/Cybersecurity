@@ -104,7 +104,7 @@ Caught by the
 **Summary:** How did you find it? Which honeypot captured it? What does each malware do?
 
 It was captured by Dionaea. ClamScan did not capture this one. I found it in the __Payloads Report__. And searched at VirusTotal.
-
+This malware is a generic trojan for Win32 bit that downloads and installs files. A trojan software looks legitimate, but can be actually very malicious. It even can be downloaded onto a device without the user's knowledge or concent. When installed, the malicious software can damage, disrupt, steal or cause other harm to the user's data or computer.
 
 MD5:   b3812008522d080fcbdec1adc499df2b
 SHA-1: 3e2781587ffeb521a6fc40a9c1bcd67d3d670926 
