@@ -36,13 +36,9 @@ The __session.json__ file, however, is a typical output dumb of the mongodb. It 
 MHN-Admin
 *Be sure to upload session.json directly to this GitHub repo/branch in order to get full credit.*
 
+
 ### Deploying Additional Honeypot(s) (Optional)
 
-#### Shockpot Honeypot
-
-**Summary:** What does this honeypot simulate and do for a security researcher?
-
-<img src="shockpot-honeypot.gif">
 
 #### Snort Honeypot
 
@@ -62,6 +58,13 @@ Snort sensor is open source IPS (intrusion prevention system). It can analyse ne
 **Summary:** What does this honeypot simulate and do for a security researcher?
 
 <img src="cowrie-honeypot.gif">
+
+
+#### Shockpot Honeypot
+
+**Summary:** What does this honeypot simulate and do for a security researcher?
+
+<img src="shockpot-honeypot.gif">
 
 
 ### Malware Capture and Identification (Optional)
