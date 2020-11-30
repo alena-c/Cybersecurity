@@ -73,7 +73,7 @@ The following command is used to test the shockpot:
 
     curl -H "User-Agent: () { :; }; /bin/eject" http://35.229.118.28/
     
-Unfortunately, I was not able to 
+Unfortunately, I was not able to test it, and this was the only honeypot that did not return anything to the __Attack Report__.
 
 <img src="shockpot-honeypot.gif">
 
