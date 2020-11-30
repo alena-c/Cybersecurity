@@ -1,0 +1,54 @@
+/opt/dionaea/var/lib/dionaea/binaries/95ae8e32eb8635e7eabe14ffbfaa777b: Win.Ransomware.WannaCry-6313787-$
+/opt/dionaea/var/lib/dionaea/binaries/6567e663303386b7152d5fcab1f06cac: Win.Ransomware.WannaCry-6313787-$
+/opt/dionaea/var/lib/dionaea/binaries/fc1e617b1ff659f1826868baedc9c258: Win.Ransomware.WannaCry-6313787-$
+/usr/bin/sctest: Win.Exploit.Jmp_Call_Additive-1 FOUND
+
+/home/alena/clamav-0.103.0/unit_tests/clam-phish-exe: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam-v2.rar: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam_cache_emax.tgz: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.odc.cpio: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.newc.cpio: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.7z: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.cab: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.tar.gz: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam_ISmsi_ext.exe: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.iso: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam-wwpack.exe: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam-fsg.exe: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam-pespin.exe: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.ea05.exe: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam-upack.exe: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.exe.mbox.base64: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.exe.binhex: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.ea06.exe: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.d64.zip: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam-mew.exe: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.exe.szdd: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.exe.bz2: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.bz2.zip: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam-v3.rar: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.ppt: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.exe.rtf: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clamjol.iso: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.chm: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam-aspack.exe: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.impl.zip: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.bin-be.cpio: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.zip: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam-petite.exe: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.mail: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam-yc.exe: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam_IScab_int.exe: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam-upx.exe: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam-nsis.exe: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.arj: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.pdf: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.sis: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.bin-le.cpio: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.exe: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam_IScab_ext.exe: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.ole.doc: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.tnef: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.exe.mbox.uu: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam.exe.html: Clamav.Test.File-6 FOUND
+/home/alena/clamav-0.103.0/test/clam_ISmsi_int.exe: Clamav.Test.File-6 FOUND
