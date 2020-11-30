@@ -14,6 +14,8 @@
 
 **Summary:** Briefly in your own words, what does dionaea do?
 
+Dionaea is used to collect and store information about all different kinds of malicious traffic/attacks from all over the world.
+
 <img src="dionaea-honeypot.gif">
 
 ### Database Backup (Required) 
@@ -62,11 +64,17 @@ MHN-Admin
 
 ### Malware Capture and Identification (Optional)
 
-#### X Malware
+I run both ClamAV on the dionaea honeypot and used VirusTotal site, because there were several malware whch were not caught by the antivirus. For VirusTotal, I used MD5 hashes found at mhn-admin webserver in 
+__Payloads Report__.
+
+#### CVE-2017-0147 Malware
+
+Caught by the 
 
 **Summary:** How did you find it? Which honeypot captured it? What does each malware do?
+It was captured by Dionaea. This malware is the SMBv1 server that allows remote attackers to obtain sensitive information from process memory via crafted packets, aka "Windows SMB Information Disclosure Vulnerability." 
 
-MD5 Hash: *Run `md5sum` on the file and record the hash here.*
+MD5 Hash: 6567e663303386b7152d5fcab1f06cac
 
 SHA1 Hash: *Run `sha1sum` on the file and record the hash here.*
 
