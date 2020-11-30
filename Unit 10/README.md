@@ -69,6 +69,16 @@ Snort sensor is open source IPS (intrusion prevention system). It can analyse ne
 I run both ClamAV on the dionaea honeypot and used VirusTotal site, because there were several malware whch were not caught by the antivirus. For VirusTotal, I used MD5 hashes found at mhn-admin webserver in 
 __Payloads Report__.
 
+The following are the first 3 lines of the ClamAV log of infected files (report_clamav_dionaea.txt):
+
+    /opt/dionaea/var/lib/dionaea/binaries/95ae8e32eb8635e7eabe14ffbfaa777b: Win.Ransomware.WannaCry-6313787-$
+    /opt/dionaea/var/lib/dionaea/binaries/6567e663303386b7152d5fcab1f06cac: Win.Ransomware.WannaCry-6313787-$
+    /opt/dionaea/var/lib/dionaea/binaries/fc1e617b1ff659f1826868baedc9c258: Win.Ransomware.WannaCry-6313787-$
+
+All three are related to the famous WannaCry ransomeware.
+
+
+
 #### CVE-2017-0147 Malware
 
 Caught by the 
@@ -84,5 +94,5 @@ SHA1 Hash: fc2ce59f87aa3688e20880d68b6bbb5cbffa2080
 
 ## Notes
 Describe any challenges encountered while doing the assignment.
-I also included the log of infected files (report_clamav_dionaea.txt), that was discovered with ClamAV
+
 
