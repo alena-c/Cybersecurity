@@ -97,16 +97,17 @@ MD5 Hash:  fc1e617b1ff659f1826868baedc9c258
 SHA1 Hash: d7dea5b421b2c0cced2a4f6b9c5d726889a94921 
 
 ______________________________________________________________________________________________
-#### Malware 
+#### Malware: Trojan/Win32.Downloader.R210634 
 
 Caught by the 
 
 **Summary:** How did you find it? Which honeypot captured it? What does each malware do?
 
-It was captured by Dionaea. This malware is a trojan that was used in WannaCry Ransomware. It's a SMBv1 server that allows remote attackers to obtain sensitive information from process memory via crafted packets, aka "Windows SMB Information Disclosure Vulnerability." 
+It was captured by Dionaea. ClamScan did not capture this one. I found it in the __Payloads Report__. And searched at VirusTotal.
 
-MD5 Hash:  fc1e617b1ff659f1826868baedc9c258
-SHA1 Hash: d7dea5b421b2c0cced2a4f6b9c5d726889a94921 
+
+MD5:   b3812008522d080fcbdec1adc499df2b
+SHA-1: 3e2781587ffeb521a6fc40a9c1bcd67d3d670926 
 
 
 <img src="x-malware.gif">
