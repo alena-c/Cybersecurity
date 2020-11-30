@@ -51,11 +51,15 @@ Snort sensor is open source IPS (intrusion prevention system). It can analyse ne
 
 **Summary:** What does this honeypot simulate and do for a security researcher?
 
+p0f performs passive fingerprinting mechanisms for identification of the actors behind TCP/IP communications without any interference.
+
 <img src="p0f-honeypot.gif">
 
 #### Cowrie Honeypot
 
 **Summary:** What does this honeypot simulate and do for a security researcher?
+
+Cowrie is a honypot of medium interaction. It works with SSH ans Telnet. It's designed to log brute force attacks and shell interactions by the attackers.
 
 <img src="cowrie-honeypot.gif">
 
@@ -63,6 +67,13 @@ Snort sensor is open source IPS (intrusion prevention system). It can analyse ne
 #### Shockpot Honeypot
 
 **Summary:** What does this honeypot simulate and do for a security researcher?
+
+Shockpot is a "web app honeypot which was made for revealing the attackers attemting to exploit the Bash remote code vulnerability, CVE-2014-6271."
+The following command is used to test the shockpot:
+
+    curl -H "User-Agent: () { :; }; /bin/eject" http://35.229.118.28/
+    
+Unfortunately, I was not able to 
 
 <img src="shockpot-honeypot.gif">
 
